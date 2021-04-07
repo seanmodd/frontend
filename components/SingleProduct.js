@@ -26,7 +26,6 @@ const SINGLE_ITEM_QUERY = gql`
       description
       id
       photo {
-        id
         altText
         image {
           publicUrlTransformed
@@ -53,7 +52,7 @@ export default function SingleProduct({ id }) {
       </Head>
       <img
         src={Product.photo.image.publicUrlTransformed}
-        alt={Product.photo.altText}
+        alt={Product.photo.image.altText}
       />
       <div className="details">
         <h2>{Product.name}</h2>

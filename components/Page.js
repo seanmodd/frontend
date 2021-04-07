@@ -55,6 +55,7 @@ export default function Page({ children, cool }) {
       <GlobalStyles />
       <Header />
       <InnerStyles>{children}</InnerStyles>
+      {/* <SingleProduct id="606cade82ce9bb0d1b393fa6" />  */}
     </div>
   );
 }
