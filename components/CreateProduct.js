@@ -85,6 +85,7 @@ export default function CreateProduct() {
             onChange={handleChange}
           />
         </label>
+
         <label htmlFor="price">
           Price
           <input
